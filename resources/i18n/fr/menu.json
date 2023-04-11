@@ -2,8 +2,8 @@
   "description": {
     "sigpatches" : "\u25c6 Les sigpatches permettent à la Switch d'installer et d'exécuter des fichiers NSP non officiels. Redémarrez la console pour appliquer les patches.",
     "pack" : "\u25c6 Le pack AtmoPack-Vanilla est un pack léger qui vous permettra d'hacker votre switch très facilement et sans problèmes. Il contient des homebrews très utiles.\n Version actuelle du pack\u00a0:",
-    "pack_beta" : "\u25c6 Le pack AtmoPack-Vanilla possède une version bêta, celle ci permet de tester les dernières nouveautées. Pour rappel une version bêta n'est pas forcément stable. \n Version actuelle du pack\u00a0:",
-    "firmwares" : "\u25c6 Firmware archivé sur 'https://github.com/THZoria/NX_Firmware'. Une fois téléchargé, ils sera extrait dans '/firmware'. Vous pouvez ensuite installer la mise à jour avec Daybreak.\n FW installé\u00a0: ",
+    "pack_beta" : "\u25c6 Le pack AtmoPack-Vanilla possède une version bêta, celle ci permet de tester les dernières nouveautés. Pour rappel, une version bêta n'est pas forcément stable. \n Version actuelle du pack\u00a0:",
+    "firmwares" : "\u25c6 Firmware archivé sur 'https://github.com/THZoria/NX_Firmware'. Une fois téléchargé, il sera extrait dans '/firmware'. Vous pouvez ensuite installer la mise à jour avec Daybreak.\n FW installé\u00a0: ",
     "app" : "\u25c6 Vous pouvez mettre à jour l'application que vous utilisez sur votre switch.\n Version actuelle de l'app\u00a0: ",
     "version" : "\n\u25c6 Version disponible\u00a0: ",
     "version_beta" : "\n\u25c6 Version de test disponible\u00a0: "
@@ -20,9 +20,9 @@
     "extract_text": "Extraction en cours...",
     "download_finish": "Téléchargement terminé!",
     "theme_installed": "\nIl semblerait que vous avez installé un thème personnalisé, cela pourrait empêcher le système de démarrer après la mise à jour de votre firmware.\nIl est conseillé de le supprimer avant d'effectuer la mise à jour.",
-    "apply_cfw": "Votre console dois redémarrer pour appliquer la mise à jour du pack.",
-    "apply_patch": "Votre console dois redémarrer pour appliquer les patchs de signature.",
-    "apply_app": "L'hombrew doit redémarrer pour appliquer la mise à jour"
+    "apply_cfw": "Votre console doit redémarrer pour appliquer la mise à jour du pack.",
+    "apply_patch": "Votre console doit redémarrer pour appliquer les patchs de signature.",
+    "apply_app": "L'homebrew doit redémarrer pour appliquer la mise à jour"
   },
 
   "error": {
@@ -32,10 +32,10 @@
   },
 
   "tab": {
-    "pack": "Update le pack",
-    "app": "Update l'app",
-    "firmwares": "Update le firmware",
-    "sigpatches": "Update les sigpatches",
+    "pack": "Update du pack",
+    "app": "Update de l'app",
+    "firmwares": "Update du firmware",
+    "sigpatches": "Update des sigpatches",
     "credits": "Crédits",
     "settings": "Paramètres"
   },
@@ -55,9 +55,9 @@
   "dialogue": {
     "yes": "Oui",
     "no": "Non",
-    "launch_daybreak": "Voulez vous lancer daybreak?",
+    "launch_daybreak": "Voulez-vous lancer daybreak?",
     "delete_theme": "Voulez-vous supprimer votre thème?",
-    "mariko_model": "Vous êtes sur un model patché, vous devez redémarrer votre switch pour appliquer la mise à jour et la redémarrer une nouvelle fois pour lancer hekate"
+    "mariko_model": "Vous êtes sur un modèle patché, vous devez redémarrer votre Switch pour appliquer la mise à jour et la redémarrer une nouvelle fois pour lancer Hekate"
     
   },
 
@@ -72,9 +72,9 @@
     "90dns_set_fail": "L'application de 90dns a échoué. Avez-vous un réseau internet configuré ?",
     "theme": "Supprimer le thème actuel",
     "theme_delete": "Suppression du thème réalisée avec succès. Redémarrer pour voir les effets",
-    "theme_delete_fail": "Impossible de supprimer le thème. Avez vous un thème actuellement?",
-    "clear": "Raffraichir les données de AtmoPackUpdater",
-    "clear_fail": "Impossible de raffraichir les données..",
+    "theme_delete_fail": "Impossible de supprimer le thème. Avez-vous un thème actuellement?",
+    "clear": "Rafraichir les données de AtmoPackUpdater",
+    "clear_fail": "Impossible de rafraichir les données..",
     "reboot": "Redémarrer sur Hekate"
   },
 
@@ -83,6 +83,6 @@
     "yes": "Oui",
     "no": "Non",
     "reboot": "Voulez-vous vraiment redémarrer votre console?",
-    "reboot_mariko": "Votre console n'est pas éligible à un redémarrage standard car celle-ci est un modèle patché."
+    "reboot_mariko": "Votre console n'est pas éligible à un redémarrage standard, car celle-ci est un modèle patché."
   }
 }
